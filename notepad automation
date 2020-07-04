@@ -1,0 +1,13 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+program notepad
+keyboard G1ANT
+for ♥fontsize from 5 to 50 step 10
+    call changefont size ♥fontsize
+end
+
+procedure changefont size 5
+	keyboard ⋘alt+o⋙f
+	window font
+	keyboard ⋘tab 2⋙♥size⋘enter⋙
+end
