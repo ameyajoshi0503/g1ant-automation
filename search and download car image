@@ -1,0 +1,18 @@
+addon net version 4.103.0.0
+addon selenium version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+
+selenium.open chrome url google.com
+delay 5
+selenium.type cars search q by name
+delay 10
+selenium.presskey enter search btnK by name
+delay 10
+selenium.click search ‴//*[@id="hdtb-msb-vis"]/div[2]/a‴ by xpath
+delay 5
+selenium.click search ‴//*[@id="islrg"]/div[1]/div[1]/a[1]/div[1]/img‴ by xpath
+♥file = ♥environment⟦USERPROFILE⟧\Desktop\json.txt
+file.download url ‴https://www.google.com/search?q=cars&rlz=1C1CHBF_enIN901IN901&sxsrf=ALeKk00Un_hC3CV0IslCqLBUOET7ThBb4w:1593772417639&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjBibn28LDqAhXZX30KHVFID8QQ_AUoAXoECBEQAw&biw=982&bih=722&dpr=1.25#imgrc=ocRp6IDmQhQL3M‴ ♥file
+ 
+window ✱Google✱ style maximize
