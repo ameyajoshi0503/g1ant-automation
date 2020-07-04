@@ -1,0 +1,8 @@
+addon selenium version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+selenium.open chrome url ‴https://www.adidas.co.in/‴
+delay 3
+selenium.click search ‴//*[@id="footer"]/div[3]/div[1]/div/ul[1]/li[4]/a‴ by xpath
+delay 3
+selenium.close
